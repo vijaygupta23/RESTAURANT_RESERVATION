@@ -1,0 +1,152 @@
+{
+    "data": [
+        {"ourQualities" : [
+            {
+                "id": 1,
+                "image": "./quality_food.svg",
+                "title": "QUALITY FOOD",
+                "description": "Come and enjoy the best taste and top-notch quality of our food! Let's embark on a delicious journey and explore the real joy of gourmet living." 
+            },
+            {
+                "id": 2,
+                "image": "./super_taste.svg",
+                "title": "SUPER TASTE",
+                "description": "Amazing Flavor: Taste that's out of this world! Experience incredible flavors that will make your taste buds dance with delight." 
+            },
+            {
+                "id": 3,
+                "image": "./fast_delivery.svg",
+                "title": "FAST DELIVERY",
+                "description": "Super Quick Delivery: Get your order in a flash! No more waiting around – enjoy fast delivery right to your doorstep." 
+            }
+        ],
+        "dishes": [
+            {
+                "id": 1,
+                "image": "./dinner1.jpg",
+                "title": "PIZZA",
+                "category": "Dinner"
+            },
+            {
+                "id": 2,
+                "image": "./dinner2.jpg",
+                "title": "BURGER",
+                "category": "Dinner"
+            },
+            {
+                "id": 3,
+                "image": "./breakfast2.jpg",
+                "title": "DOSA",
+                "category": "Breakfast"
+            },
+            {
+                "id": 4,
+                "image": "./dinner3.jpg",
+                "title": "NOODLES",
+                "category": "Dinner"
+            },
+            {
+                "id": 5,
+                "image": "./lunch1.jpg",
+                "title": "PANEER",
+                "category": "Lunch"
+            },
+            {
+                "id": 6,
+                "image": "./dinner4.jpg",
+                "title": "FRIED RICE",
+                "category": "Dinner"
+            },
+            {
+                "id": 7,
+                "image": "./dinner5.jpg",
+                "title": "SANDWICH",
+                "category": "Breakfast"
+            },
+            {
+                "id": 8,
+                "image": "./dinner6.jpg",
+                "title": "POTATO CHIPS",
+                "category": "Dinner"
+            }
+        ],
+        "team": [
+            {
+                "id": 1,
+                "image": "./team1.jpg",
+                "name": "ABBAS MEHDI NAQVI",
+                "designation": "SOFTWARE ENGINEER AT JOSH TECHNOLOGY"
+            },
+            {
+                "id": 2,
+                "image": "./team2.jpeg",
+                "name": "PAWAN SINGH",
+                "designation": "SOFTWARE ENGINEER AT TCS"
+            },
+            {
+                "id": 3,
+                "image": "./team3.jpg",
+                "name": "ANAND SINGH YADAV",
+                "designation": "SOFTWARE ENGINEER AT WESTERN UNION"
+            },
+            {
+                "id": 4,
+                "image": "./team4.jpeg",
+                "name": "KUMAR YASH",
+                "designation": "SOFTWARE ENGINEER AT WESTERN UNION"
+            }
+        ],
+        "who_we_are": [
+            {
+                "id": 1,
+                "number": "14",
+                "title": "Restaurants"
+            },
+            {
+                "id": 2,
+                "number": "20",
+                "title": "Chef In Kitchen"
+            },
+            {
+                "id": 3,
+                "number": "05",
+                "title": "Years Of Experience"
+            },
+            {
+                "id": 4,
+                "number": "200",
+                "title": "Food Dishes"
+            }
+        ],
+        "navbarLinks": [
+            {
+                "id": 1,
+                "title": "HOME",
+                "link": "heroSection"
+            },
+            {
+                "id": 2,
+                "title": "ABOUT US",
+                "link": "about"
+            },
+            {
+                "id": 3,
+                "title": "SERVICES",
+                "link": "qualities"
+            },
+            {
+                "id": 5,
+                "title": "RESERVATION",
+                "link": "reservation"
+            },
+            {
+                "id": 4,
+                "title": "REVIEW",
+                "link": "team"
+            }
+           
+        ]
+    
+    } 
+    ]
+}

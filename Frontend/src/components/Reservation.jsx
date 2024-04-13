@@ -11,7 +11,7 @@ const Reservation = () => {
   const [email, setEmail] = useState("");
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
-  const [phone, setPhone] = useState(0);
+  const [phone, setPhone] = useState("");
   const navigate = useNavigate();
 
   const handleReservation = async (e) => {
@@ -19,6 +19,8 @@ const Reservation = () => {
     try {
       const { data } = await axios.post(
         "https://uninterested-rose-moose.cyclic.app/api/v1/reservation/send",
+        // "http://localhost:4000/api/v1/reservation/send",
+
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
@@ -30,7 +32,7 @@ const Reservation = () => {
       toast.success(data.message);
       setFirstName("");
       setLastName("");
-      setPhone(0);
+      setPhone("");
       setEmail("");
       setTime("");
       setDate("");
